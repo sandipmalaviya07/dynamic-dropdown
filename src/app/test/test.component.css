@@ -1,0 +1,156 @@
+/* .all-itms {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #4d99f9;
+    height: 66px;
+}
+
+.user-chip {
+    border: 1px solid;
+    background:#4d99f9;
+    padding: 4px 0px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    margin-top: 15px;
+    left: 0;
+    right: 50%;
+}
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    
+    border-bottom: 1px solid #d4d4d41a;
+}
+
+.autocomplete-items div:hover {
+    background-color: #a695957a;
+}
+
+
+.user-chip span.delete-icon-chip {
+    position: inherit;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20px;
+}
+.user-chip span.delete-icon-chip {
+        right: 7px;
+        height: 17px;
+    }
+.delete-icon-chip {
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    right: 7px;
+    font-size: 12px;
+}
+
+.delete-icon-chip:hover {
+    opacity: 1;
+} */
+
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    width: 40%;
+    z-index: 1;
+    border: 1px solid #4d99f9;  
+    cursor: pointer;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 36px;
+    font-size: 18px;
+    line-height: 36px;
+    background-color: #f1f1f1;
+    margin: 5px;
+  }
+  
+  /* .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  } */
+  
+  .closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .closebtn:hover {
+    color: #000;
+  }
+
+  .itms{
+    border: 1px solid #4d99f9;   
+    width: 40%;
+    height: 46px;
+  }
+
+  .plchld
+  {
+    
+    width: 100%;  
+    height: 20px;
+    font-weight: 600;
+  }
+
+  .img{
+      width: 60px;
+  }

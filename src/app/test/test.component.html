@@ -1,0 +1,32 @@
+
+
+
+
+<!-- Selected values Section -->
+<div class="itms">
+    <div class="chip" *ngFor="let val of selectedValues;let idx = index">
+        <span>{{val.text}}</span>
+        <span (click)="deleteSelects(val,val.type)" class="closebtn">&#10006;</span>
+    </div>
+</div>
+
+<!-- Different dropdown values -->
+<!-- country -->
+<div class="dropdown-content" *ngIf="isCountrySelect">
+    <div class="plchld">Select Country</div>
+    <div *ngFor="let c of countryList" (click)="onSelect(c,typeCountry)">
+        <img src="../../assets/images/{{c.name}}.png" class="img" />
+        {{ c.name }} </div>
+</div>
+
+<!-- State -->
+<div class="dropdown-content" *ngIf="isStateSelect">
+    <div class="plchld">Select State</div>
+    <div *ngFor="let s of stateList" (click)="onSelect(s,typeState)">{{ s.name }}</div>
+</div>
+
+<!-- City -->
+<div class="dropdown-content" *ngIf="isCitySelect">
+    <div class="plchld">Select City</div>
+    <div *ngFor="let ct of cityList" (click)="onSelect(ct,typeCity)">{{ ct.name }}</div>
+</div>
